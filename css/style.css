@@ -17,6 +17,7 @@ button,
 .ba-button{
  display: inline-block;
 }
+
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
