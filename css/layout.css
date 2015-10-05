@@ -6,7 +6,7 @@
 
 .cf:before,
 .cf:after {
-    content: " ";
+    content: '';
     display: table;
 }
 
@@ -123,7 +123,7 @@ img{
 .ba-grid:after,
 [class*='_grid']:before,
 [class*='_grid']:after {
-	content: " ";
+	content: '';
 	display: table;
 }
 
@@ -142,12 +142,12 @@ img{
 	margin-top: 20px;
 }
 
-[class*=ba-width-"],
+[class*='ba-width-'],
 [class*='_width_'] {
 	width: 100%;
 }
 
-.ba-grid > [class*=ba-width-"],
+.ba-grid > [class*='ba-width-'],
 .ba-grid > [class*='_width_'] {
 	float: left;
 	padding-left: 20px;
@@ -164,7 +164,7 @@ img{
 	margin-left: 0;
 }
 
-.ba-grid-nopad > [class*=ba-width-"],
+.ba-grid-nopad > [class*='ba-width-'],
 .ba-grid-nopad > [class*='_width_'] {
 	padding-left: 0;
 }
