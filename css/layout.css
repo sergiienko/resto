@@ -72,6 +72,7 @@ img{
 	vertical-align: middle;
 }
 
+[class*='ba-vertical-align-'],
 [class*='_valign_'] {
 	display: inline-block;
 }
