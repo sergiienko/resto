@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Aleo';
+    src: url('../font/aleo_regular/Aleo-Regular.eot');
+    src: url('../font/aleo_regular/Aleo-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/aleo_regular/Aleo-Regular.woff') format('woff'),
+         url('../font/aleo_regular/Aleo-Regular.ttf') format('truetype'),
+         url('../font/aleo_regular/Aleo-Regular.svg#aleoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../font/aleo_bold/Aleo-Bold.eot');
+    src: url('../font/aleo_bold/Aleo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/aleo_bold/Aleo-Bold.woff') format('woff'),
+         url('../font/aleo_bold/Aleo-Bold.ttf') format('truetype'),
+         url('../font/aleo_bold/Aleo-Bold.svg#aleoregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WCManoNegraBta';
+    src: url('../font/wcmanonegrabta_regular/WCManoNegraBta.eot');
+    src: url('../font/wcmanonegrabta_regular/WCManoNegraBta.eot?#iefix') format('embedded-opentype'),
+         url('../font/wcmanonegrabta_regular/WCManoNegraBta.woff') format('woff'),
+         url('../font/wcmanonegrabta_regular/WCManoNegraBta.ttf') format('truetype'),
+         url('../font/wcmanonegrabta_regular/WCManoNegraBta.svg#wc_mano_negra_btaregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
