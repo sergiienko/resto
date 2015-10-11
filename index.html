@@ -20,7 +20,7 @@
 	<![endif]-->
 </head>
 <body>
-	<svg class="ba-hidden">
+	<svg class="ba-svg_hidden">
 	  <defs>
 	    <style>
 
@@ -40,7 +40,7 @@
 	</svg>
 	<header class="ba-header">
 		<div class="ba-container">
-			<a class="ba-logo ba-logo_float_left">
+			<a href="#" class="ba-logo ba-logo_float_left">
 				<svg class="ba-logo_img ba-logo_img_valign_middle">
 				  <use xlink:href="#logo"></use>
 				</svg>
@@ -51,11 +51,7 @@
 
 				<ul class="ba-menu">
 					<li>
-						<a href="#">
-							<span data-hover="Our Story">
-								Our Story
-							</span>
-						</a>
+						<a href="#">Our Story</a>
 					</li>
 					<li>
 						<a href="#">Menu</a>
@@ -88,7 +84,232 @@
 				<div class="ba-menu__bg"></div>
 
 				<div class="ba-banner__scroll-down">
-					<a href="#resto-menu" class="ba-button ba-button_menu">The Menu</a>
+					<a href="#resto-menu" class="ba-button ba-button_menu" id="resto-menu">The Menu</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section ba-the-menu">
+			<div class="ba-container">
+				<div class="ba-the-menu__grid">
+					<div class="ba-the-menu__page ba-the-menu__page_width_1-2">
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Cheese, tomato, mushrooms, onions.">
+								<a href="#" class="ba-dish__link">Voluptate cillum fugiat.</a>
+							</h3>
+							<span class="ba-dish__price">50</span>
+						</div>
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Chicken, mozzarella cheese, onions.">
+								<a href="#" class="ba-dish__link">Metus varius laoreet.</a>
+							</h3>
+							<span class="ba-dish__price">62</span>
+						</div>
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Tuna, Sweetcorn, Cheese.">
+								<a href="#" class="ba-dish__link">Donec sodales magna.</a>
+							</h3>
+							<span class="ba-dish__price">25</span>
+						</div>
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Pineapple, Minced Beef, Cheese.">
+								<a href="#" class="ba-dish__link">Saugue velit cursus.</a>
+							</h3>
+							<span class="ba-dish__price">30</span>
+						</div>
+					</div>
+					<div class="ba-the-menu__page ba-the-menu__page_width_1-2">
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Tuna, Sweetcorn, Cheese.">
+								<a href="#" class="ba-dish__link">Arcu pede enim justo.</a>
+							</h3>
+							<span class="ba-dish__price">42</span>
+						</div>
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Pineapple, Minced Beef, Cheese.">
+								<a href="#" class="ba-dish__link">Cras dapibussemper nisi.</a>
+							</h3>
+							<span class="ba-dish__price">35</span>
+						</div>
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Cheese, tomato, mushrooms, onions.">
+								<a href="#" class="ba-dish__link">Quam semper libero.</a>
+							</h3>
+							<span class="ba-dish__price">15</span>
+						</div>
+						<div class="ba-dish ba-dish_with-line">
+							<h3 class="ba-dish__title" data-ingredients="Chicken, mozzarella cheese, onions.">
+								<a href="#" class="ba-dish__link">Nam eget dui Etiam.</a>
+							</h3>
+							<span class="ba-dish__price">32</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<svg class="ba-svg_hidden">
+		  <defs>
+		    <style>
+			  .ba-star {
+		        fill: #F1DF1A;
+		      }
+
+		      .ba-star_disabled {
+		        fill: #DEDEDE;
+		      }
+		    </style>
+		  </defs>
+
+		  <g id="resto-star">
+			<path d="M7.535,4.261 C6.820,2.331 6.308,0.912 5.999,0.005 C5.999,0.005 4.511,4.261 4.511,4.261 C3.647,4.283 2.639,4.309 1.487,4.341 C0.591,4.373 0.100,4.389 0.015,4.389 C0.015,4.389 3.631,7.093 3.631,7.093 C2.788,9.920 2.362,11.365 2.351,11.429 C4.783,9.701 6.015,8.837 6.047,8.837 C6.047,8.837 9.759,11.381 9.759,11.381 C9.322,9.973 8.884,8.533 8.447,7.061 C10.036,5.845 11.226,4.933 12.015,4.325 C10.703,4.283 9.210,4.261 7.535,4.261 C7.535,4.261 7.535,4.261 7.535,4.261 Z" class="ba-star" fill-rule="evenodd"/>
+		  </g>
+
+		  <g id="resto-star_disabled">
+			<path d="M7.535,4.261 C6.820,2.331 6.308,0.912 5.999,0.005 C5.999,0.005 4.511,4.261 4.511,4.261 C3.647,4.283 2.639,4.309 1.487,4.341 C0.591,4.373 0.100,4.389 0.015,4.389 C0.015,4.389 3.631,7.093 3.631,7.093 C2.788,9.920 2.362,11.365 2.351,11.429 C4.783,9.701 6.015,8.837 6.047,8.837 C6.047,8.837 9.759,11.381 9.759,11.381 C9.322,9.973 8.884,8.533 8.447,7.061 C10.036,5.845 11.226,4.933 12.015,4.325 C10.703,4.283 9.210,4.261 7.535,4.261 C7.535,4.261 7.535,4.261 7.535,4.261 Z" class="ba-star ba-star_disabled" fill-rule="evenodd"/>
+		  </g>
+
+		</svg>
+
+		<section class="ba-section ba-featured">
+			<div class="ba-container">
+				<h2 class="ba-section__title">Featured Dishes</h2>
+				<div class="ba-featured__grid">
+					<div class="ba-dish ba-dish_width_1-4">
+						<a class="ba-dish__link" href="#">
+							<img class="ba-dish__img" src="img/dish/1.jpg">
+						</a>
+						<h3 class="ba-dish__title">
+							<a class="ba-dish__link" href="#">Fugiat nulla sint</a>
+						</h3>
+						<span class="ba-dish__price">30</span>
+
+						<div class="ba-dish__estimation">
+							<svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star_disabled"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="ba-dish ba-dish_width_1-4">
+						<a class="ba-dish__link" href="#">
+							<img class="ba-dish__img" src="img/dish/2.jpg">
+						</a>
+						<h3 class="ba-dish__title">
+							<a class="ba-dish__link" href="#">Daute irure dolor</a>
+						</h3>
+						<span class="ba-dish__price">24</span>
+
+						<div class="ba-dish__estimation">
+							<svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star_disabled"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star_disabled"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="ba-dish ba-dish_width_1-4">
+						<a class="ba-dish__link" href="#">
+							<img class="ba-dish__img" src="img/dish/3.jpg">
+						</a>
+						<h3 class="ba-dish__title">
+							<a class="ba-dish__link" href="#">Officia deserunt mollit</a>
+						</h3>
+						<span class="ba-dish__price">60</span>
+
+						<div class="ba-dish__estimation">
+							<svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg>
+						</div>
+					</div>
+					<div class="ba-dish ba-dish_width_1-4">
+						<a class="ba-dish__link" href="#">
+							<img class="ba-dish__img" src="img/dish/4.jpg">
+						</a>
+						<h3 class="ba-dish__title">
+							<a class="ba-dish__link" href="#">Pim minim veniam</a>
+						</h3>
+						<span class="ba-dish__price">17</span>
+
+						<div class="ba-dish__estimation">
+							<svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star"></use>
+							</svg><!--
+							--><svg class="ba-dish__mark">
+								<use xlink:href="#resto-star_disabled"></use>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section ba-gallery">
+			<div class="ba-container">
+				<h2 class="ba-section__title">The Gallery</h2>
+				<div class="ba-gallery__grid ba-gallery__grid_nopad">
+					<a class="ba-gallery__item ba-gallery__item_width_1-3 ba-dish__link" href="#">
+						<img class="ba-gallery__img ba-dish__img" src="img/gallery/1.jpg">
+					</a>
+					<div class="ba-gallery__item ba-gallery__item_width_1-3">
+						<a class="ba-gallery__item ba-dish__link" href="#">
+							<img class="ba-gallery__img ba-dish__img" src="img/gallery/2.jpg">
+						</a>
+						<a class="ba-gallery__item ba-dish__link" href="#">
+							<img class="ba-gallery__img ba-dish__img" src="img/gallery/4.jpg">
+						</a>
+					</div>
+					<div class="ba-gallery__item ba-gallery__item_width_1-3">
+						<a class="ba-gallery__item ba-dish__link" href="#">
+							<img class="ba-gallery__img ba-dish__img" src="img/gallery/3.jpg">
+						</a>
+						<a class="ba-gallery__item ba-dish__link" href="#">
+							<img class="ba-gallery__img ba-dish__img" src="img/gallery/5.jpg">
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>

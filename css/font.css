@@ -1,5 +1,16 @@
 @font-face {
     font-family: 'Aleo';
+    src: url('../font/aleo_lightitalic/Aleo-LightItalic.eot');
+    src: url('../font/aleo_lightitalic/Aleo-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../font/aleo_lightitalic/Aleo-LightItalic.woff') format('woff'),
+         url('../font/aleo_lightitalic/Aleo-LightItalic.ttf') format('truetype'),
+         url('../font/aleo_lightitalic/Aleo-LightItalic.svg#aleoregular') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aleo';
     src: url('../font/aleo_regular/Aleo-Regular.eot');
     src: url('../font/aleo_regular/Aleo-Regular.eot?#iefix') format('embedded-opentype'),
          url('../font/aleo_regular/Aleo-Regular.woff') format('woff'),

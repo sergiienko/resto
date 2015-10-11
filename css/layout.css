@@ -149,7 +149,9 @@ img{
 }
 
 .ba-grid > [class*='ba-width-'],
-.ba-grid > [class*='_width_'] {
+[class*='_grid'] > [class*='ba-width-'],
+.ba-grid > [class*='_width_'],
+[class*='_grid'] > [class*='_width_'] {
 	float: left;
 	padding-left: 20px;
 }
@@ -161,12 +163,12 @@ img{
 
 /* No Padding Grid */
 .ba-grid-nopad,
-[class*='_grid-nopad'] {
+[class*='_grid_nopad'] {
 	margin-left: 0;
 }
 
 .ba-grid-nopad > [class*='ba-width-'],
-.ba-grid-nopad > [class*='_width_'] {
+[class*="_grid_nopad"] > [class*='_width_'] {
 	padding-left: 0;
 }
 
