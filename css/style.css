@@ -29,6 +29,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #F34949;
+}
+
 a,
 input[type="submit"],
 input[type="button"],
@@ -42,7 +46,7 @@ input[type="submit"],
 input[type="button"],
 button,
 .ba-button{
- display: inline-block;
+ 	display: inline-block;
 }
 
 input[type="submit"]:hover,
@@ -76,6 +80,12 @@ select:focus {
 
 textarea {
 
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 [class*="_hidden"] {
@@ -149,33 +159,6 @@ textarea {
 	letter-spacing: .07em;
 }
 
-.ba-menu li a:after {
-	position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background: #3B3B3B;
-    content: '';
-    opacity: 0;
-
-    -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  	   -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
-    		transition: height 0.3s, opacity 0.3s, transform 0.3s;
-
-    -webkit-transform: translateY(-10px);
-       -moz-transform: translateY(-10px);
-    	transform: translateY(-10px);
-}
-
-.ba-menu li a:hover:after {
-	height: 1px;
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-       -moz-transform: translateY(0px);
-    		transform: translateY(0px);
-}
-
 @media (max-width: 959px) {
 	.ba-menu {
 		position: absolute;
@@ -198,8 +181,8 @@ textarea {
 		font-size: 20px;
 	}
 
-	.ba-menu li a:after {
-		background: #FFF;
+	.ba-menu li a:hover {
+		color: #F34949;
 	}
 }
 
@@ -340,6 +323,10 @@ textarea {
 	-webkit-box-sizing: content-box;
 	   -moz-box-sizing: content-box;
 	        box-sizing: content-box;
+}
+
+.ba-button_menu:hover {
+	color: #FFF;
 }
 
 .ba-button_menu:hover:before {
@@ -484,4 +471,66 @@ textarea {
 
 .ba-gallery__grid + .ba-gallery__grid {
 	margin-top: 0;
+}
+
+
+/* Footer */
+
+.ba-footer {
+	background-color: #3B3B3B;
+	padding: 100px 0 80px;
+}
+
+.ba-address {
+	color: #ECECEC;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.ba-address:first-child {
+	color: #EBEBEB;
+}
+
+.ba-address__name,
+.ba-address__link {
+	color: #FFF;
+}
+
+.ba-address__name {
+	font-weight: 400;
+}
+
+.ba-address__link {
+	font-weight: 700;
+}
+
+.ba-footer-menu a {
+	color: #FFF;
+	line-height: 35px;
+}
+
+.ba-footer-menu a:hover {
+	color: #F34949;
+}
+
+.ba-copyright {
+	color: #ECECEC;
+}
+
+.ba-copyright__text {
+	font-size: 14px;
+	margin: 20px 0 0;
+	line-height: 30px;
+}
+
+.ba-copyright__text:last-child {
+	margin-top: 0;
+}
+
+.ba-copyright__text a {
+	color: #ECECEC;
+}
+
+.ba-copyright__text a:hover {
+	color: #F34949;
 }
