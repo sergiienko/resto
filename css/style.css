@@ -531,9 +531,6 @@ ul {
 	margin-top: 0;
 }
 
-
-
-
 /* Footer */
 
 .ba-footer {
@@ -559,6 +556,12 @@ ul {
 
 	.ba-copyright {
 		padding-top: 60px !important;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 960px) {
+	.ba-address {
+		margin-bottom: 20px;
 	}
 }
 
